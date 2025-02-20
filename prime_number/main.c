@@ -7,7 +7,7 @@ int main(void) {
 	int stepValue;							//단계별 검증할 수
 	int incValue;							//프라임넘버 확인하기 위한 수
 	//2이상의 정수를입력받는다.
-	printf("2이상의 정수를 입력하세요:");
+	printf("2이상의 정수를 입력:");
 	scanf("%d", &inputValue);
 	//2부터 1씩 증가하면서 입력 받은 수까지 증가 후 종료하는 루프
 	for (stepValue = 2; stepValue <= inputValue; stepValue++) {
